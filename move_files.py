@@ -83,6 +83,11 @@ def move_file(file):
         if not os.path.exists(track_dir + "Other/Disc/"):
             os.makedirs(track_dir + "Other/Disc")
         shutil.move(track_dir + rename_file2, new_folder)
+    elif re.match('(?:% s)' % '|'.join(data_regex_list), file_extension):
+        new_folder = Path(track_dir + "Other/Data/" + rename_file2)
+        if not os.path.exists(track_dir + "Other/Data/"):
+            os.makedirs(track_dir + "Other/Data")
+        shutil.move(track_dir + rename_file2, new_folder)
     elif re.match('(?:% s)' % '|'.join(executables_regex_list), file_extension):
         new_folder = Path(track_dir + "Other/Executables/" + rename_file2)
         if not os.path.exists(track_dir + "Other/Executables/"):

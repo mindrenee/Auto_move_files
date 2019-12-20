@@ -29,7 +29,21 @@ the files directly after downloading.
 | .mp4 | Video |
 | .html | Other/Internet |
 | .css | Other/Internet |
-
+| .zip | Other/Compressed |
+| .rar | Other/Compressed |
+| .tar.gz | Other/Compressed |
+| .iso | Other/Disc |
+| .dmg | Other/Disc |
+| .csv | Other/Data |
+| .sql | Other/Data |
+| .json | Other/Data |
+| .exe | Other/Executables |
+| .apk | Other/Executables |
+| .jar | Other/Executables |
+| .sh | Other/Programming |
+| .c | Other/Programming |
+| .java | Other/Programming |
+| .py | Other/Programming |
 
 ## Dependencies
 Script is tested on Ubuntu 18.04, with Python3 and watchdog.
