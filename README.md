@@ -1,27 +1,40 @@
 # Auto move files
 Reorganize automatically the files in your Downloads folder.
 
-When downloading files to your computer in the Downloads folder, you get a lot of different files in there. To keep track of what kind of files you have downloaded this script organizes the files directly after downloading. 
+When downloading files to your computer in the Downloads folder, you get a lot of different 
+files in there. To keep track of what kind of files you have downloaded this script organizes 
+the files directly after downloading. 
 
 | Extension | Folder |
 |---|---|
 | .mp3 | Music | 
 | .wav | Music |  
 | .m3u | Music | 
-| ,gif | Images |
+| .gif | Images |
 | .ico | Images |
-| ,jpg | Images |
+| .jpg | Images |
 | .jpeg | Images |
 | .png | Images |
 | .svg | Images |
 | .txt | Text |
-| ,doc | Text |
+| .doc | Text |
 | .docx | Text |
 | .odt | Text |
 | .pdf | Text |
-| ,tex | Text |
+| .tex | Text |
+| .flv | Video |
+| .m4v | Video |
+| .mkv | Video |
+| .mov | Video |
+| .mp4 | Video |
+| .html | Other/Internet |
+| .css | Other/Internet |
 
-## Build as a service 
+
+## Dependencies
+Script is tested on Ubuntu 18.04, with Python3 and watchdog.
+
+## Build and run as a service 
 In the /lib/systemd/system folder you create your custom .service file as follows:
 
 ```
@@ -55,3 +68,5 @@ Check if the service is running:
    CGroup: /system.slice/auto-move-files.service
            └─3453 /usr/bin/python3 /home/renee/CodeProjects/Auto_move_files/move_files.py
 ```
+
+Replace file locations with your own.
