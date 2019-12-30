@@ -1,4 +1,7 @@
 # Auto move files
+
+[![Build Status](https://travis-ci.com/mindrenee/Auto_move_files.svg?branch=master)](https://travis-ci.com/mindrenee/Auto_move_files)
+
 Reorganize automatically the files in your Downloads folder.
 
 When downloading files to your computer in the Downloads folder, you get a lot of different 
