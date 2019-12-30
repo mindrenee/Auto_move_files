@@ -1,3 +1,5 @@
 language: python
 python:
   - "Python 3.6"
+install:
+  - pip install watchdog
