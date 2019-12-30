@@ -16,12 +16,14 @@ the files directly after downloading.
 | .jpeg | Images |
 | .png | Images |
 | .svg | Images |
+| .drawio | Images |
 | .txt | Text |
 | .doc | Text |
 | .docx | Text |
 | .odt | Text |
 | .pdf | Text |
 | .tex | Text |
+| .epub | Text |
 | .flv | Video |
 | .m4v | Video |
 | .mkv | Video |

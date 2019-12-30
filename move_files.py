@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 import os
 import shutil
@@ -11,8 +11,8 @@ from pathlib import Path
 track_dir = "/home/renee/Downloads/"
 
 audio_regex_list = [".mp3", ".wav", ".m3u"]
-text_regex_list = [".txt", ".doc", ".docx", ".odt", ".pdf", ".tex"]
-image_regex_list = [".gif", ".ico", ".jpg", ".jpeg", ".png", ".svg"]
+text_regex_list = [".txt", ".doc", ".docx", ".odt", ".pdf", ".tex", ".epub"]
+image_regex_list = [".gif", ".ico", ".jpg", ".jpeg", ".png", ".svg", ".drawio"]
 video_regex_list = [".flv", ".m4v", ".mkv", ".mov", ".mp4"]
 internet_regex_list = [".html", ".css"]
 compressed_regex_list = [".zip", ".rar", ".tar.gz"]
